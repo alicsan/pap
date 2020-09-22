@@ -8,4 +8,6 @@ class Pais(models.Model):
     #especie de get
     def str (self):
         return self.nombre
-    
+
+class Meta:
+    verbose_name="pais"
