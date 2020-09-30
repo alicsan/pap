@@ -6,7 +6,7 @@ class Pais(models.Model):
     nombre=models.CharField(max_length=30)
 
     #especie de get
-    def str (self):
+    def __str__ (self):
         return self.nombre
 
 class Meta:
